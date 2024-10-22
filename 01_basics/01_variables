@@ -1,0 +1,20 @@
+const accountId = 2346657  //if you don't want to change it again then take it as const
+let accountEmail = "ya2346657@google.com"  //is used for variable 
+var accountPassword = "12345"  //has one problem that it does not work in scope
+accountCity = "bengaluru"  //not a good practice
+let accountState; //its value will be undefined because we haven't defined here anything
+
+//accountId = 5 //This is not possible because it has been assigned using const
+
+accountEmail = "hc@hc.com"
+accountPassword = "555"
+accountCity = "Jaipur"
+
+
+/*
+prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
